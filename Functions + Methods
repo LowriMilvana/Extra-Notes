@@ -1,0 +1,32 @@
+
+METHODS are blocks of codes that perfom a specific TASK or FUNCTION. (perfoms the task REPEATEDLY 
+without having to wrtie more code)
+
+FUNCTIONS = 'func'
+
+func bio(){
+
+}
+
+THIS IS A BLANK FUNCTION!!
+
+a SET of BRACKETS and then a set of curly braces which CONTAINS whatever we want the function TO DO.
+
+
+FUNCTION to print out a BIO of a PERSON
+
+{
+
+func bio(){
+print("My name is \(self.name), I am \(self.age) from Wales")
+
+}
+
+\ and () are used to ENCASE the VARIABLE being used. ALLOWS you to add FLEXIBILITY TO YOUR FUNCTIONS 
+allowing them to take ARGUMENTS or PARAMETERS and using them INSIDE your FUNC
+function now ACCEPTS an argument of 'name' = when we CALL this function it's expecting a STRING to be 
+passed to it which is can use. IT WILL BE CALLED NAME.
+
+CALL a function = me.bio()
+
+FUNTION AND METHOD ARE THE SAME THING = function becomes a method when it is CONTAINED WITHIN A CLASS
