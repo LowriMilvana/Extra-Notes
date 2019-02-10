@@ -1,0 +1,38 @@
+REQUESTING PERMISSION (YOU MUS DO THIS)
+
+2 part process:
+
+1. Add the relevent keys the app info.plist file
+2. make the request via CLLocationManager object 
+
+SETTING UP THE info.plist file = TWO ADDITIONS YOU NEED TO MAKE IN THIS FILE 
+
+Privacy - Location Always and When in Use Usage Description 
+Privacy - Location When in Use Usage Description 
+
+PROVIDE AN APPROPRIATE DESCRIPTION - This is what the user sees. 
+
+THE LOCATION MANAGER OBJECT
+
+ANY class that wishes to use LOCATION will need to INCLUDE CoreLocation library = at the top of the file you will need to add:
+
+{
+
+import CoreLocation
+
+}
+
+// If using a MAPKIT ther is NO NEED to ass this!!
+
+CLLocationManager = all key concepts when dealing with USER LOCATION = must be created as a PROPERTY OF THE CLASS
+
+{
+
+let locationManager = CLLocationManager()
+
+}
+
+INSIDE THE viewDidLoad method YOU WILL NEED:
+LocationManager.requestAlwaysAuthorization()   -- COMPLETES THE REQUEST for the user to grant permisson to use their location
+LocastionManager.delegate = self   -- 
+locationManager.startUpdatingLocation()
