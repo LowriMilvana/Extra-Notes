@@ -1,0 +1,42 @@
+A propertie can be EITHER a VARIABLE or a CONSTANT 
+
+variable = CHANGED 
+constant = REMAINS THE SAME
+
+VARIATION = var 
+CONTANT THE SYNTAX = let 
+
+You have to DECLARE what TYPE of the VARABLE is.
+the SYNTAX for DECLARING what TYPE of VARIABLE is a :
+
+E.E
+
+'is of type' = :
+
+
+for this example we looked at STRING + INTERGERS
+
+STRING = Characters
+INTERGER = (Whole) Numbers
+
+{
+
+var name: String!
+var age: Int!
+
+}
+
+once you have DECLARED the TYPE of the PROPERTY you need to INITIALISE it. 
+CREATING a NEUTRAL'title' of the VARIABLES that each object in thr class MUST have
+
+{
+
+init(name:String, age:Int) {
+self.name = name
+self.age = age
+}
+
+SELF = DIFERENTIATE between the PROPERTY 'name' and the PARAMETER 'name'
+
+PARAMETER 'name' = in the BRACKETS after 'init'
+PROPERTY = VARIABLE you set at the beginning. 
