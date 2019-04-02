@@ -1,0 +1,31 @@
+Built with Ruby, Installed with DEFAULT RUBY. (default ruby recomended) 
+
+DEFAULT RUBY = requires you to use SUDO when intalling GEMS. 
+
+# Xcode 9 + 10
+$ sudo gem install cocoapods
+
+list the dependencies in a TEXT file named PODFILE in Xcode. 
+
+{ 
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyApp' do
+  pod 'AFNetworking', '~> 2.6'
+  pod 'ORStackView', '~> 3.0'
+  pod 'SwiftyJSON', '~> 2.3'
+end
+
+}
+
+cocoapods provides a POD INIT command to create a PODFILE with smart defaults (USE IT)
+
+Import your dependencies e.g. 
+
+{
+
+<Reachability/Reachability.h>
+
+}
